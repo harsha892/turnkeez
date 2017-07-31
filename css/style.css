@@ -47,6 +47,14 @@
 
 
 
+
+
+
+
+
+
+
+
 /*---------------------------------------------------
 1. Theme Default CSS (body, link color, section etc)
 ----------------------------------------------------*/
@@ -56,7 +64,7 @@ a {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     text-decoration: none;
-     outline: none;
+    outline: none;
 }
 
 a:focus,
@@ -98,6 +106,15 @@ header {
     /* font-size: 12px; */
 }
 
+#wrapper {
+    min-height: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -126,6 +143,14 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -261,6 +286,14 @@ input:-webkit-autofill:focus {
 
 
 
+
+
+
+
+
+
+
+
 /*---------------
 3. Overright-css
 ----------------*/
@@ -305,6 +338,14 @@ input:-webkit-autofill:focus {
 .form-control::-webkit-input-placeholder {
     color: #333;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -426,6 +467,14 @@ input:-webkit-autofill:focus {
 
 
 
+
+
+
+
+
+
+
+
 /*-----------------
 5. Header-Style
 ------------------*/
@@ -433,6 +482,10 @@ input:-webkit-autofill:focus {
 .header-area {
     height: 100%;
     width: 100%;
+}
+
+.header-area.wrap-header {
+    height: 250px;
 }
 
 .header-bg-image div,
@@ -501,6 +554,12 @@ input:-webkit-autofill:focus {
     background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
 }
 
+.header-small-angle-bg {
+    height: 150px;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
+}
+
 .headline {
     font-size: 40px;
     color: #ffffff;
@@ -549,6 +608,14 @@ input:-webkit-autofill:focus {
 
 
 
+
+
+
+
+
+
+
+
 /*----------------
 6. Mainmenu-Style
 -----------------*/
@@ -570,12 +637,33 @@ input:-webkit-autofill:focus {
     padding: 6px;
 }
 
+li.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
 #mainmenu .nav.navbar-nav li a {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: bold;
     position: relative;
+}
+
+#mainmenu .nav.navbar-nav .dropdown-menu>li>a {
+    color: #a30419;
+    font-weight: thin;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #a30419;
+}
+
+
+#mainmenu .nav.navbar-nav .dropdown-menu>li>a:hover {
+    background: #a30419;
+    color: #fff;
 }
 
 #mainmenu .nav.navbar-nav li.active a {
@@ -599,6 +687,14 @@ input:-webkit-autofill:focus {
 #mainmenu .nav.navbar-nav li.active a:after {
     width: 100%;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -693,6 +789,14 @@ input:-webkit-autofill:focus {
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.5" /><feFuncG type="linear" slope="0.5" /><feFuncB type="linear" slope="0.5" /></feComponentTransfer></filter></svg>#filter');
     filter: brightness(0.5);
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -814,6 +918,14 @@ input:-webkit-autofill:focus {
 
 
 
+
+
+
+
+
+
+
+
 /*-------------------
 9. Service-Style
 ---------------------*/
@@ -832,6 +944,14 @@ input:-webkit-autofill:focus {
     opacity: 1;
     left: 0;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -906,6 +1026,14 @@ input:-webkit-autofill:focus {
 
 
 
+
+
+
+
+
+
+
+
 /*-------------------
 11. Scrollup-button
 --------------------*/
@@ -928,6 +1056,14 @@ input:-webkit-autofill:focus {
     background-color: #ec082b;
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1352,6 +1488,7 @@ input:-webkit-autofill:focus {
     top: 5px;
     z-index: 3;
 }
+
 .service_left {
     left: 0;
 }
@@ -1359,6 +1496,7 @@ input:-webkit-autofill:focus {
 .service_right {
     right: 0;
 }
+
 .car_washing,
 .renovation,
 .green_cleaning {
@@ -1375,10 +1513,13 @@ input:-webkit-autofill:focus {
 
 
 
-.apartment, .office, .move_in_out {
+.apartment,
+.office,
+.move_in_out {
     display: table;
     float: right;
 }
+
 .renovation {
     padding-left: 50px;
 }
@@ -1386,6 +1527,7 @@ input:-webkit-autofill:focus {
 .office {
     padding-right: 50px;
 }
+
 .service_left .service_icon,
 .service_right .service_icon {
     border: 10px solid;
@@ -1401,6 +1543,7 @@ input:-webkit-autofill:focus {
     -moz-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
+
 .service_left .service_icon {
     float: right;
 }
@@ -1413,15 +1556,20 @@ input:-webkit-autofill:focus {
 .apartment .service_icon {
     background: #1a1a1a url("../images/icon/home.png") no-repeat center / 30% 30%;
 }
-.service_left .service_icon, .service_right .service_icon {
+
+.service_left .service_icon,
+.service_right .service_icon {
     border-color: #f1f1f1;
 }
+
 .service_left .service_icon {
     float: right;
 }
+
 .office .service_icon {
     background: #1a1a1a url("../images/icon/office.png") no-repeat center / 30% 30%;
 }
+
 .office:hover .service_icon {
     background: #ec082b url("../images/icon/office.png") no-repeat center / 30% 30%;
 }
@@ -1429,15 +1577,15 @@ input:-webkit-autofill:focus {
 .move_in_out .service_icon {
     background: #1a1a1a url("../images/icon/express.png") no-repeat center / 40% 40%;
 }
+
 .move_in_out:hover .service_icon {
     background: #ec082b url("../images/icon/express.png") no-repeat center / 40% 40%;
 }
 
 .apartment:hover .service_icon {
     background: #ec082b url("../images/icon/home.png") no-repeat center / 30% 30%;
-
-
 }
+
 .car_washing .service_icon {
     background: #1a1a1a url("../images/icon/white_car.png") no-repeat center / 30% 30%;
 }
@@ -1445,9 +1593,11 @@ input:-webkit-autofill:focus {
 .renovation .service_icon {
     background: #1a1a1a url("../images/icon/white_paintbrush.png") no-repeat center / 30% 30%;
 }
+
 .renovation:hover .service_icon {
     background: #ec082b url("../images/icon/white_paintbrush.png") no-repeat center / 30% 30%;
 }
+
 .car_washing:hover .service_icon {
     background: #ec082b url("../images/icon/white_car.png") no-repeat center / 30% 30%;
 }

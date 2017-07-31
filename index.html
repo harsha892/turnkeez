@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Idyllic software Pvt Ltd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/space.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/w3data.js"></script>
     <script src="js/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -46,32 +47,7 @@
             </div>
         </div>
         <!--Mainmenu-area-->
-        <nav class="mainmenu-area smoth navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!--Logo-->
-                    <a class="navbar-brand" href="#home"><img src="images/logo.png" alt=""></a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right" id="mainmenu">
-                    <ul class="nav navbar-nav">
-                        <!-- 
-                        <li class="active"><a href="#home">Home</a></li> -->
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#work">Data Sciences</a></li>
-                        <li><a href="#skill">Solutions</a></li>
-                        <li><a href="#service">Now in Analytics</a></li>
-                        <li><a href="#team">Careers</a></li>
-                        <li><a href="#price">Learn</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div w3-include-html="shared/navigation.html"></div>
         <!--Mainmenu-area/-->
         <div class="vcenter">
             <div class="container">
@@ -85,7 +61,7 @@
                             <div class="space-10"></div>
                         </div>
                         <div class="six-h-s" data-animation="animated fadeInRight">
-                            <a href="" class="bttn icon-bttn round-bttn text-uppercase white-bttn">Know More<span class="fa fa-info"></span></a>
+                            <a href="#about" class="bttn icon-bttn round-bttn text-uppercase white-bttn">Know More<span class="fa fa-info"></span></a>
                         </div>
                     </div>
                     <!--Header-Text-Slider/-->
@@ -173,8 +149,8 @@
         </div>
     </section>
     <!--About-area-->
-    <section class="gray-bg relative fix" id="about">
-        <div class="space-50"></div>
+    <section class="gray-bg relative" id="about">
+        <div class="space-80"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -190,8 +166,8 @@
                         <p>
                             We like solving problems—taking things apart, seeing how they work and putting them back together, better. We lead the way in combining science and hands-on experience to solve the toughest sales and marketing challenges. For more than 10 years, we’ve learned from each success and apply our passion to help customers win and grow. When the forces of sales and marketing combine, the impact can be incredible. Together, they have the power to boost market share, increase revenue, lower costs and improve overall business performance. That’s impact where it matters. And, in collaboration with our clients, that’s exactly the kind of impact Idyllic software delivers.
                         </p>
-                        <div class="space-40"></div>
-                        <a href="" class="bttn round-bttn red-bttn">Read More</a>
+                        <div class="space-60"></div>
+                        <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6">
@@ -203,237 +179,64 @@
                             Idyllic software information systems is rooted in an academic partnership that began in the early 2000’s. In 2003, Idyllic software introduced a new sales force effectiveness and productivity framework. This framework – and future versions – has since been leveraged extensively by the firm to help clients determine their key issues and improve their business performance. The company also began to develop data warehouses for clients, as well as a range of analytical services. These projects were the genesis for Idyllic software’s services in client capability building and outsourcing.
                         </p>
                         <div class="space-40"></div>
-                        <a href="" class="bttn round-bttn red-bttn">Read More</a>
+                        <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="space-60"></div>
     </section>
-    <!--About-area/-->
-    <!--Price-Area
-    <section id="price">
-        <br>
+    <section class="relative" id="datascience">
+        <div class="space-80"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="text-center text-uppercase">News and <span class="text-red">Events</span></h1>
+                <div class="col-xs-12 col-md-6">
+                    <h1 class="text-uppercase">Data <span class="text-red">Science</span></h1>
                     <hr class="red_hr">
+                    <div class="space-10"></div>
+                    <p class="text-uppercase text-muted"><b><i>Using Data Science to Score Marketing Content</i></b></p>
+                    <div class="space-10"></div>
+                    <p>Idyllic software’s approach to data science challenges is highly pragmatic and interdisciplinary. Our relationship with a customer usually starts with our analyzing a data science opportunity, working with customer executives to develop a quantitative business case for pursuing it, and presenting the business case to executive decision makers. We then combine cutting edge methods from statistics, operations research, machine learning, decision science, cognitive science, software engineering, business intelligence, human factors, and organizational behavior to produce a state-of-the-art scientific model. When we translate the model into a production decision-support or decision-automation system, we adhere methodically to agile/lean design and development life cycles that include robust testing at every level, to ensure the most reliable and scalable solution possible. We’re equally systematic about involving customer executives and staff in each stage of a project, to ensure enthusiastic executive sponsorship, appropriate organizational support, and graceful technology and business-process transitions.</p>
+                    <div class="space-20"></div>
+                    <div class="space-80"></div>
                 </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software News on <br> 21st June, 2015</h4>
-                                <div class="space-40"></div>
-                                <p>Idyllic software Information Systems, has bagged a 4 year e-governance contract from undisclosed customer to develop an e-business portal that will give users easy access to Client information.</p>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software Information Systems News on <br> 21st June, 2015</h4>
-                                <div class="space-40"></div>
-                                <p>Idyllic software Information Systems signed for E-Commerce application with undisclosed Client from Germany.</p>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software information systems News on <br>11th December, 2015</h4>
-                                <div class="space-40"></div>
-                                <p>Idyllic software Information Systems is in plan of expanding the business globally and also development centers.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software information systems News on <br> 9th January, 2016.</h4>
-                                <div class="space-40"></div>
-                                <p>Idyllic software information systems got 4 year outsourcing contract from undisclosed customer</p>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software information systems News on <br>4th March, 2016.</h4>
-                                <div class="space-40"></div>
-                                <p>Idyllic software information systems has signed with new client for a data science project.</p>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <h4 class="text-uppercase">Idyllic software information systems News on <br>11th April, 2016.</h4>
-                                <div class="space-40"></div>
-                                <p>Hiring Freshers with 1 year contract,Qualification B.tech/BE CSE, IT, Electronics.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xs-12 col-md-5">
+                    <img src="images/hand-shak.jpg" alt="" class="img-responsive" width="100%">
                 </div>
             </div>
         </div>
-    </section>-->
-    <!--Price-Area/-->
-    <!--Work-area
-    <section id="work">
-        <div class="space-100"></div>
-        <div class="container">
-            <div class="row close-grid img-full-width">
-                <div class="col-xs-12 col-md-5 relative work-content-grid">
-                    <img src="images/work/text-background.jpg" alt="">
-                    <div class=" padding-40 vcenter">
-                        <div class="page-count-num">02</div>
-                        <div class="space-20"></div>
-                        <h2>Some Creative Work</h2>
-                        <div class="space-20"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum, sem non volutpat aliquam, tellus ligula venenatis massa, .</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-7">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                            <a href="images/work/image-1.jpg" class="work-popup"><img src="images/work/image-1.jpg" alt=""></a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <a href="images/work/image-2.jpg" class="work-popup"><img src="images/work/image-2.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-5">
-                    <a href="images/work/image-5.jpg" class="work-popup"><img src="images/work/image-5.jpg" alt=""></a>
-                </div>
-                <div class="col-xs-12 col-sm-7">
-                    <a href="images/work/image-3.jpg" class="work-popup"><img src="images/work/image-3.jpg" alt=""></a>
-                </div>
-                <div class="col-xs-12 col-sm-5">
-                    <a href="images/work/image-7.jpg" class="work-popup"><img src="images/work/image-7.jpg" alt=""></a>
-                </div>
-                <div class="col-xs-12 col-sm-7">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                            <a href="images/work/image-4.jpg" class="work-popup"><img src="images/work/image-4.jpg" alt=""></a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <a href="images/work/image-6.jpg" class="work-popup"><img src="images/work/image-6.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--Work-area/-->
-    <!--Skill-area-->
-    <section id="skill">
-        <div class="space-40"></div>
-        <div class="relative gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="space-60"></div>
-                        <h1 class="text-uppercase">Data <span class="text-red">Science</span></h1>
-                        <hr class="red_hr">
-                        <div class="space-10"></div>
-                        <p class="text-uppercase text-muted"><b><i>Using Data Science to Score Marketing Content</i></b></p>
-                        <div class="space-10"></div>
-                        <p>Idyllic software’s approach to data science challenges is highly pragmatic and interdisciplinary. Our relationship with a customer usually starts with our analyzing a data science opportunity, working with customer executives to develop a quantitative business case for pursuing it, and presenting the business case to executive decision makers. We then combine cutting edge methods from statistics, operations research, machine learning, decision science, cognitive science, software engineering, business intelligence, human factors, and organizational behavior to produce a state-of-the-art scientific model. When we translate the model into a production decision-support or decision-automation system, we adhere methodically to agile/lean design and development life cycles that include robust testing at every level, to ensure the most reliable and scalable solution possible. We’re equally systematic about involving customer executives and staff in each stage of a project, to ensure enthusiastic executive sponsorship, appropriate organizational support, and graceful technology and business-process transitions.</p>
-                        <div class="space-20"></div>
-                        <div class="space-80"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <div class="space-60"></div>
-                        <img src="images/hand-shak.jpg" alt="" class="img-responsive" width="100%">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="space-60"></div>
     </section>
-    <section id="skill">
-        <div class="space-40"></div>
-        <div class="relative gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="space-60"></div>
-                        <img src="images/type2.jpg" alt="" class="img-responsive" width="100%">
-                    </div>
-                    <div class="col-xs-12 col-md-5">
-                        <div class="space-60"></div>
-                        <h1 class="text-uppercase">Company <span class="text-red">Analysis</span></h1>
-                        <hr class="red_hr">
-                        <div class="space-10"></div>
-                        <ul>
-                            <li>Corporate Data Science</li>
-                            <li>Exploratory Data Science</li>
-                            <li>Automated Reporting</li>
-                            <li>Data Mining</li>
-                            <li>Connected Devices Data</li>
-                            <li>Data Science Education</li>
-                        </ul>
-                        <div class="space-20"></div>
-                        <div class="space-80"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Price-Area
-    <section id="price">
-        <br>
+    <section class="gray-bg relative">
+        <div class="space-80"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-flag"></i></div>
-                                <h4 class="text-uppercase">Migrate from Legacy BI</h4>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-shield"></i></div>
-                                <h4 class="text-uppercase">Incorporate Hadoop into every day analytics</h4>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-unlock"></i></div>
-                                <h4 class="text-uppercase">Manage centralized BI in the cloud</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-camera-retro"></i></div>
-                                <h4 class="text-uppercase">Leverage the value of data for your clients</h4>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-microphone"></i></div>
-                                <h4 class="text-uppercase">Setup your Sales, Marketing &amp; Financial Analytics</h4>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <div class="padding-40 gray-bg text-center single-price">
-                                <div class="price-rate"><i class="fa fa-flask"></i></div>
-                                <h4 class="text-uppercase">Analyze Complex processes or Business models</h4>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xs-12 col-md-6">
+                    <img src="images/type2.jpg" alt="" class="img-responsive" width="100%">
                 </div>
+                <div class="col-xs-12 col-md-5">
+                    <h1 class="text-uppercase">Company <span class="text-red">Analysis</span></h1>
+                    <hr class="red_hr">
+                    <div class="space-10"></div>
+                    <ul>
+                        <li>Corporate Data Science</li>
+                        <li>Exploratory Data Science</li>
+                        <li>Automated Reporting</li>
+                        <li>Data Mining</li>
+                        <li>Connected Devices Data</li>
+                        <li>Data Science Education</li>
+                    </ul>
+                    <div class="space-20"></div>
+                    <div class="space-80"></div>
+                </div>
+                <div class="space-80"></div>
             </div>
         </div>
-    </section>-->
-    <section id="our_srvice">
+        <div class="space-60"></div>
+    </section>
+    <section class="relative">
+        <div class="space-80"></div>
         <div class="container">
-
             <div class="row">
                 <div class="content service_content">
                     <div class="service_left">
@@ -479,188 +282,11 @@
                 </div>
             </div>
         </div>
+        <div class="space-60"></div>
     </section>
-    <!--Price-Area/-->
-    <!--Skill-area/-->
-    <!--Service-area
-    <section id="service" class="fix">
-        <div class="space-100"></div>
+    <section class="gray-bg relative">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 padding30">
-                    <div class="gray-bg">
-                        <div class="padding-40">
-                            <div class="page-count-num">04</div>
-                            <div class="space-20"></div>
-                            <h2>    IT Consulting</h2>
-                            <div class="space-20"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar imperdiet elementum. Cras vehicula, nisl vitae luctus vehicula, risus ligula feugiat eros, commodo semper sem enim non magna. Phasellus ultricies blandit massa. Phasellus imperdiet varius augue et fermentum. Curabitur auctor magna lacinia urna sagittis mollis. Ut quis suscipit nibh. Sed ultricies lacus at ligula faucibus, a pharetra tortor elementum.</p>
-                            <p>Aenean non cursus lorem. Donec consequat nunc ut felis molestie semper. Curabitur eget odio nec metus tempus porttitor. Praesent sed gravida libero. Phasellus pulvinar lorem a ligula lacinia, non dictum dui gravida. Donec venenatis libero ut metus pharetra mattis. Quisque quis nisl sollicitudin, venenatis nisi in, convallis orci. </p>
-                            <div class="space-5"></div>
-                        </div>
-                        <a href="#" class="bttn padding-20 red-bttn show">Order now</a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="row img-full-width">
-                        <div class="col-xs-12 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="img-hover-ef relative single-service">
-                                <img src="images/blog/image-1.jpg" alt="">
-                                <div class="vcenter text-center">
-                                    <h3 class="text-white">Web Design</h3>
-                                </div>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="img-hover-ef relative single-service">
-                                <img src="images/blog/image-2.jpg" alt="">
-                                <div class="vcenter text-center">
-                                    <h3 class="text-white">Graphic Design</h3>
-                                </div>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 wow fadeIn" data-wow-delay="0.8s">
-                            <div class="img-hover-ef relative single-service">
-                                <img src="images/blog/image-3.jpg" alt="">
-                                <div class="vcenter text-center">
-                                    <h3 class="text-white">Marketing</h3>
-                                </div>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 wow fadeIn img-hover-ef" data-wow-delay="0.6s">
-                            <div class="img-hover-ef relative single-service">
-                                <img src="images/blog/image-4.jpg" alt="">
-                                <div class="vcenter text-center">
-                                    <h3 class="text-white">Development</h3>
-                                </div>
-                            </div>
-                            <div class="space-30"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--Service-area/-->
-    <!--Team-area
-    <div id="team">
-        <div class="space-100"></div>
-        <div class="container">
-            <div class="row img-full-width">
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.2s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-1.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">IT Consulting</a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-2.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">Mobile Apps</a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-3.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">Data Science</a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.8s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-5.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">Application Development</small></a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.8s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-4.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">Technologies</small></a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.8s">
-                    <div class="team-image">
-                        <div class="relative">
-                            <img src="images/team/image-4.jpg" alt="">
-                            <ul class="list-unstyled team-sical">
-                                <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                <li><a href="#"><span class="ti-twitter"></span></a></li>
-                                <li><a href="#"><span class="ti-github"></span></a></li>
-                                <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                                <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="bttn red-bttn show">SAP</small></a>
-                    </div>
-                    <div class="space-30"></div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!--Team-area/-->
-    <!--Contact-Area-->
-    <div class="gray-bg" id="contact">
-        <div class="space-100"></div>
-        <div class="container">
+            <div class="space-100"></div>
             <form action="process.php" id="contact-form" method="post">
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
@@ -686,7 +312,7 @@
             </form>
         </div>
         <div class="space-100"></div>
-    </div>
+    </section>
     <!--Contact-Area-->
     <!--Footer-area-->
     <footer>
@@ -742,6 +368,9 @@
     <script src="js/plugins.js"></script>
     <!--Main-JS-->
     <script src="js/main.js"></script>
+    <script>
+    w3.includeHTML();
+    </script>
 </body>
 
 </html>
