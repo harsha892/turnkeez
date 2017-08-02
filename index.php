@@ -201,7 +201,7 @@
                     <div class="space-80"></div>
                 </div>
                 <div class="col-xs-12 col-md-5">
-                    <img src="images/hand-shak.jpg" alt="" class="img-responsive" width="100%">
+                    <img src="images/data-analysis.jpg" alt="" class="img-responsive" width="100%">
                 </div>
             </div>
         </div>

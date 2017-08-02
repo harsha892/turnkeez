@@ -1634,3 +1634,10 @@ li.dropdown:hover>.dropdown-menu {
     -moz-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
+.nav-pills > li > a{
+    color: #282828;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+    background-color: #ee2140;
+    color: #fff;
+}
