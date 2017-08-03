@@ -17,9 +17,6 @@
 }
 
 
-
-
-
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -30,9 +27,6 @@
         width: 95%;
     }
 }
-
-
-
 
 
 /* Mobile Layout: 320px. */
@@ -76,10 +70,26 @@
         font-size: 24px;
         width: 50%;
     }
+    .container-95 {
+        width: 95%
+    }
+    .do-sevice-section .do-service-container {
+        height: 150px;
+        width: calc(100% / 2 - 1px);
+        margin-bottom: 1px;
+    }
+    .do-sevice-section .do-service-container .do-front-part,
+    .do-sevice-section .do-service-container .do-back-part {
+        height: 150px;
+    }
+    .do-sevice-section .do-service-container .do-back-part .do-back-content p {
+        font-size: 12px;
+    }
+    .do-sevice-section .do-service-container .do-back-part .do-back-content h3 {
+        font-size: 14px;
+        margin: 0;
+    }
 }
-
-
-
 
 
 /* Wide Mobile Layout: 480px. */

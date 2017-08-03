@@ -72,7 +72,7 @@
     </header>
     <!--Header-area/-->
     <section class="do-sevice-section" id="do-sevice-section">
-        <div class="container">
+        <div class="container container-95">
             <div class="row">
                 <!-- DESIGN -->
                 <div class="do-service-container">
