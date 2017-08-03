@@ -1,63 +1,4 @@
-/*-----------------------------------------------------------------------------------
-    Template Name: WESAL HTML5 Template,
-    Template URI: http://quomodotheme.com
-    Description: This is html5 template
-    Author: quomodotheme
-    Author URI: http://quomodotheme.com
-    Version: 1.0
------------------------------------------------------------------------------------    
-    CSS INDEX
-    ===================
-    0. Google-Fonts
-    1. Theme Default CSS (body, link color, section etc),
-    2. All-Button-Style,
-    3. Overright-css,
-    4. Helper Class,
-    5. Header-Style,
-    6. Mainmenu-Style,
-    7. Work-Area-Style,
-    8. Skillbar-Style,
-    9. Service-Style,
-    10. price-Style,
-    11. Scrollup-button,    
-    12. Preloader-style
------------------------------------------------------------------------------------
-0. Google-Fonts
------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:100,400,500,700');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------
-1. Theme Default CSS (body, link color, section etc)
-----------------------------------------------------*/
 
 a {
     text-decoration: none;
@@ -76,6 +17,16 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.footer_logo {
+    width: 100px;
+    background: #fff;
+    padding: 8px;
 }
 
 h1,
@@ -110,72 +61,11 @@ header {
     min-height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------
-2. All-Button-Style
--------------------*/
 
 .bttn {
     border: medium none;
@@ -265,39 +155,6 @@ input:-webkit-autofill:focus {
     color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------
-3. Overright-css
-----------------*/
-
 .close-grid [class|=col] {
     padding: 0;
 }
@@ -338,39 +195,6 @@ input:-webkit-autofill:focus {
 .form-control::-webkit-input-placeholder {
     color: #333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------
-4. Helper Class
----------------*/
 
 .alignleft {
     float: left;
@@ -422,7 +246,7 @@ input:-webkit-autofill:focus {
 }
 
 .black-bg {
-    background-color: #111111;
+    background-color: #282828;
     color: #999999;
 }
 
@@ -445,39 +269,6 @@ input:-webkit-autofill:focus {
     font-size: 40px;
     font-weight: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----------------
-5. Header-Style
-------------------*/
 
 .header-area {
     height: 100%;
@@ -530,6 +321,10 @@ input:-webkit-autofill:focus {
     z-index: 1;
 }
 
+.header-overlay-small-angle-bg {
+    background-color: transparent;
+}
+
 .header-bg-image img {
     top: 50%;
     left: 50%;
@@ -555,7 +350,7 @@ input:-webkit-autofill:focus {
 }
 
 .header-small-angle-bg {
-    height: 150px;
+    /*  height: 150px; */
     background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
     background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
 }
@@ -587,39 +382,6 @@ input:-webkit-autofill:focus {
     color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------
-6. Mainmenu-Style
------------------*/
-
 .mainmenu-area {
     background: none;
     border: medium none;
@@ -637,9 +399,16 @@ input:-webkit-autofill:focus {
     padding: 6px;
 }
 
-li.dropdown:hover>.dropdown-menu {
-    display: block;
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    background: #fff;
 }
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #fff;
+    background-color: #fff;
+}
+
 
 #mainmenu .nav.navbar-nav li a {
     color: #ffffff;
@@ -647,11 +416,6 @@ li.dropdown:hover>.dropdown-menu {
     font-size: 14px;
     font-weight: bold;
     position: relative;
-}
-
-#mainmenu .nav.navbar-nav .dropdown-menu>li>a {
-    color: #a30419;
-    font-weight: thin;
 }
 
 .navbar-inverse .navbar-nav>.open>a,
@@ -687,39 +451,6 @@ li.dropdown:hover>.dropdown-menu {
 #mainmenu .nav.navbar-nav li.active a:after {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------
-7. Work-Area-Style
------------------*/
 
 .team-image img,
 .work-popup img {
@@ -789,39 +520,6 @@ li.dropdown:hover>.dropdown-menu {
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.5" /><feFuncG type="linear" slope="0.5" /><feFuncB type="linear" slope="0.5" /></feComponentTransfer></filter></svg>#filter');
     filter: brightness(0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------
-8. Skillbar-Style
-----------------*/
 
 .skillst {
     width: 100%;
@@ -897,39 +595,6 @@ li.dropdown:hover>.dropdown-menu {
     color: #ffb500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------
-9. Service-Style
----------------------*/
-
 .single-service .vcenter {
     left: 10px;
     opacity: 0;
@@ -944,39 +609,6 @@ li.dropdown:hover>.dropdown-menu {
     opacity: 1;
     left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------
-10. price-Style
----------------------*/
 
 .single-price {
     /* border-bottom: 4px solid transparent;
@@ -1005,39 +637,6 @@ li.dropdown:hover>.dropdown-menu {
     font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------
-11. Scrollup-button
---------------------*/
-
 #scrollUp {
     border: 1px solid #ec082b;
     border-radius: 2px;
@@ -1057,38 +656,6 @@ li.dropdown:hover>.dropdown-menu {
     color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------
-12. Preloader-style
-----------------------*/
 
 .preloader {
     background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
@@ -1634,10 +1201,14 @@ li.dropdown:hover>.dropdown-menu {
     -moz-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
-.nav-pills > li > a{
+
+.nav-pills>li>a {
     color: #282828;
 }
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
     background-color: #ee2140;
     color: #fff;
 }

@@ -13,12 +13,9 @@
     <!-- Plugin-CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/space.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -70,7 +67,7 @@
             </div>
         </div>
         <div class="header-scroll-btton smoth">
-            <a href="#about"><span class="ti-mouse-alt"></span></a>
+            <a href="#about"><span class="fa fa-angle-down"></span></a>
         </div>
     </header>
     <!--Header-area/-->
@@ -190,7 +187,7 @@
         <div class="space-80"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-sm-6">
                     <h1 class="text-uppercase">Data <span class="text-red">Science</span></h1>
                     <hr class="red_hr">
                     <div class="space-10"></div>
@@ -200,7 +197,7 @@
                     <div class="space-20"></div>
                     <div class="space-80"></div>
                 </div>
-                <div class="col-xs-12 col-md-5">
+                <div class="col-xs-12 col-sm-5">
                     <img src="images/data-analysis.jpg" alt="" class="img-responsive" width="100%">
                 </div>
             </div>
@@ -211,10 +208,10 @@
         <div class="space-80"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-sm-6">
                     <img src="images/type2.jpg" alt="" class="img-responsive" width="100%">
                 </div>
-                <div class="col-xs-12 col-md-5">
+                <div class="col-xs-12 col-sm-5">
                     <h1 class="text-uppercase">Company <span class="text-red">Analysis</span></h1>
                     <hr class="red_hr">
                     <div class="space-10"></div>
@@ -234,7 +231,7 @@
         </div>
         <div class="space-60"></div>
     </section>
-    <section class="relative">
+    <section class="relative hidden-xs hidden-sm">
         <div class="space-80"></div>
         <div class="container">
             <div class="row">
@@ -314,58 +311,15 @@
         <div class="space-100"></div>
     </section>
     <!--Contact-Area-->
-    <!--Footer-area-->
-    <footer>
-        <div class="black-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <div class="space-40"></div>
-                        <img src="images/footer-logo.png" alt="">
-                        <div class="space-20"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitVestibulum
-                            <br> pulvinar imperdiet elementum. </p>
-                        <div class="space-30"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="red-bg xs-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="space-20"></div>
-                        <p>Copyright @ Idyllic software All Rights Reserved</p>
-                        <div class="space-10"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 text-right">
-                        <div class="space-20"></div>
-                        <ul class="list-inline list-unstyled social-menu">
-                            <li><a href="#"><span class="ti-facebook"></span></a></li>
-                            <li><a href="#"><span class="ti-twitter"></span></a></li>
-                            <li><a href="#"><span class="ti-github"></span></a></li>
-                            <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                            <li><a href="#"><span class="ti-instagram"></span></a></li>
-                            <li><a href="#"><span class="ti-dribbble"></span></a></li>
-                        </ul>
-                        <div class="space-10"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--Footer-area/-->
+    <div w3-include-html="shared/footer.html"></div>
     <!--Vandor-JS-->
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!--Plugin-JS-->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
     <script src="js/contact-form.js"></script>
-    <script src="js/appear.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/plugins.js"></script>
     <!--Main-JS-->
     <script src="js/main.js"></script>
     <script>
