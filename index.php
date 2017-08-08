@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Idyllic software Pvt Ltd</title>
+    <title>Intent Software Solutions Pvt Ltd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -51,9 +51,9 @@
                 <div class="row text-white">
                     <!--Header-Text-Slider-->
                     <div class="col-xs-12 col-sm-6 col-md-5">
-                        <h1 class="headline two-h-s text-uppercase" data-animation="animated fadeInRight">WELCOME TO <br>Idyllic software</h1>
+                        <h1 class="headline two-h-s text-uppercase" data-animation="animated fadeInRight">WELCOME TO <br>Intent Software Solutions</h1>
                         <div class="four-h-s" data-animation="animated fadeInRight">
-                            <p>Idyllic software is a Data Analytics &amp; Data Science company.
+                            <p>Intent Software Solutions is a Data Analytics &amp; Data Science company.
                                 <br>splashing down data.</p>
                             <div class="space-10"></div>
                         </div>
@@ -137,7 +137,7 @@
                         <div class="do-back-part">
                             <div class="do-back-content">
                                 <h3><i class="fa fa-clock-o "></i> Development</h3>
-                                <p> Idyllic software offer large scale applications, for your enterprise needs.</p>
+                                <p> Intent Software Solutions offer large scale applications, for your enterprise needs.</p>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                         <h2>Who We <span class="text-red">Are</span></h2>
                         <div class="space-40"></div>
                         <p>
-                            We like solving problems—taking things apart, seeing how they work and putting them back together, better. We lead the way in combining science and hands-on experience to solve the toughest sales and marketing challenges. For more than 10 years, we’ve learned from each success and apply our passion to help customers win and grow. When the forces of sales and marketing combine, the impact can be incredible. Together, they have the power to boost market share, increase revenue, lower costs and improve overall business performance. That’s impact where it matters. And, in collaboration with our clients, that’s exactly the kind of impact Idyllic software delivers.
+                            We like solving problems—taking things apart, seeing how they work and putting them back together, better. We lead the way in combining science and hands-on experience to solve the toughest sales and marketing challenges. For more than 10 years, we’ve learned from each success and apply our passion to help customers win and grow. When the forces of sales and marketing combine, the impact can be incredible. Together, they have the power to boost market share, increase revenue, lower costs and improve overall business performance. That’s impact where it matters. And, in collaboration with our clients, that’s exactly the kind of impact Intent Software Solutions delivers.
                         </p>
                         <div class="space-60"></div>
                         <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
@@ -173,7 +173,7 @@
                         <h2>Our <span class="text-red">History</span></h2>
                         <div class="space-40"></div>
                         <p>
-                            Idyllic software information systems is rooted in an academic partnership that began in the early 2000’s. In 2003, Idyllic software introduced a new sales force effectiveness and productivity framework. This framework – and future versions – has since been leveraged extensively by the firm to help clients determine their key issues and improve their business performance. The company also began to develop data warehouses for clients, as well as a range of analytical services. These projects were the genesis for Idyllic software’s services in client capability building and outsourcing.
+                            Intent Software Solutions information systems is rooted in an academic partnership that began in the early 2000’s. In 2003, Intent Software Solutions introduced a new sales force effectiveness and productivity framework. This framework – and future versions – has since been leveraged extensively by the firm to help clients determine their key issues and improve their business performance. The company also began to develop data warehouses for clients, as well as a range of analytical services. These projects were the genesis for Intent Software Solutions’s services in client capability building and outsourcing.
                         </p>
                         <div class="space-40"></div>
                         <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
@@ -193,7 +193,7 @@
                     <div class="space-10"></div>
                     <p class="text-uppercase text-muted"><b><i>Using Data Science to Score Marketing Content</i></b></p>
                     <div class="space-10"></div>
-                    <p>Idyllic software’s approach to data science challenges is highly pragmatic and interdisciplinary. Our relationship with a customer usually starts with our analyzing a data science opportunity, working with customer executives to develop a quantitative business case for pursuing it, and presenting the business case to executive decision makers. We then combine cutting edge methods from statistics, operations research, machine learning, decision science, cognitive science, software engineering, business intelligence, human factors, and organizational behavior to produce a state-of-the-art scientific model. When we translate the model into a production decision-support or decision-automation system, we adhere methodically to agile/lean design and development life cycles that include robust testing at every level, to ensure the most reliable and scalable solution possible. We’re equally systematic about involving customer executives and staff in each stage of a project, to ensure enthusiastic executive sponsorship, appropriate organizational support, and graceful technology and business-process transitions.</p>
+                    <p>Intent Software Solutions’s approach to data science challenges is highly pragmatic and interdisciplinary. Our relationship with a customer usually starts with our analyzing a data science opportunity, working with customer executives to develop a quantitative business case for pursuing it, and presenting the business case to executive decision makers. We then combine cutting edge methods from statistics, operations research, machine learning, decision science, cognitive science, software engineering, business intelligence, human factors, and organizational behavior to produce a state-of-the-art scientific model. When we translate the model into a production decision-support or decision-automation system, we adhere methodically to agile/lean design and development life cycles that include robust testing at every level, to ensure the most reliable and scalable solution possible. We’re equally systematic about involving customer executives and staff in each stage of a project, to ensure enthusiastic executive sponsorship, appropriate organizational support, and graceful technology and business-process transitions.</p>
                     <div class="space-20"></div>
                     <div class="space-80"></div>
                 </div>
