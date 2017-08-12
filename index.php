@@ -284,26 +284,31 @@
     <section class="gray-bg relative">
         <div class="container">
             <div class="space-100"></div>
-            <form action="process.php" id="contact-form" method="post">
+            <div class="alert alert-success hide contact_success"></div>
+            <form action="process.php" id="contact-form" method="post" novalidate>
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Your Name" required>
+                        <input type="text" class="required form-control" id="form-name" name="form-name" placeholder="Your Name" required>
+                        <p class="text-danger error hide">Please enter name</p>
                         <div class="space-30"></div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email Address" required>
+                        <input type="email" class="required form-control" id="form-email" name="form-email" placeholder="Email Address" required>
+                        <p class="text-danger error hide">Please enter email</p>
                         <div class="space-30"></div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Subject" required>
+                        <input type="text" class="required form-control" id="form-subject" name="form-subject" placeholder="Subject" required>
+                        <p class="text-danger error hide">Please enter subject</p>
                         <div class="space-30"></div>
                     </div>
                     <div class="col-xs-12">
-                        <textarea class="form-control" rows="6" id="form-message" name="form-message" placeholder="Message hare..." required></textarea>
+                        <textarea class="required form-control" rows="6" id="form-message" name="form-message" placeholder="Message hare..." required></textarea>
+                        <p class="text-danger error hide">Please enter message</p>
                         <div class="space-30"></div>
                     </div>
                     <div class="col-xs-12">
-                        <button type="submit" class="bttn red-bttn">Send Message</button>
+                        <button type="submit" class="bttn red-bttn form_contact_submit">Send Message</button>
                     </div>
                 </div>
             </form>
@@ -324,6 +329,74 @@
     <script src="js/main.js"></script>
     <script>
     w3.includeHTML();
+    (function($){
+    	/*$("body").on("click", ".form_contact_submit", function(e) {
+    		e.stopPropogation();
+    		e.preventDefault();
+
+    	});*/
+
+    	var $contactForm = $("#contact-form");
+    	var $requiredFlieds = $contactForm.find(".required");
+    	var $submitBtn = $contactForm.find(".form_contact_submit");
+
+    	$requiredFlieds.on("blur change", function(e) {
+    		var value = $.trim($(this).val());
+    		var $error = $(this).siblings('.error');
+    		$error.addClass('hide');
+    		if(!value || value == undefined) {
+    			$error.removeClass('hide');
+    			return false;
+    		}
+    	});
+
+    	$submitBtn.on("click", function(e) {
+    		e.stopPropagation();
+    		e.preventDefault();
+    		var isValid = true;
+    		$requiredFlieds.each(function(e) {
+    			var value = $.trim($(this).val());
+    			var $error = $(this).siblings('.error');
+	    		$error.addClass('hide');
+	    		if(!value || value == undefined) {
+	    			$error.removeClass('hide');
+	    			isValid = false;
+	    		}
+    		});
+
+    		if(isValid) {
+    			submitForm($contactForm)
+    		}
+    	});
+
+    	function submitForm($form) {
+    		var params = $form.serialize();
+    		console.log("params", params);
+    		$.ajax({
+    			url: '/mail.php',
+    			type: 'POST',
+    			data: params,
+    		})
+    		.done(function(response) {
+    			$(".contact_success").text(response).removeClass('hide');
+    			setTimeout(function() {
+    				$requiredFlieds.each(function() {
+    					$(this).val("");
+    					$(this).siblings(".error").addClass('hide');
+    					$(".contact_success").text("").addClass('hide');
+    				})
+    			}, 3000)
+    			console.log("success");
+    		})
+    		.fail(function() {
+    			console.log("error");
+    		})
+    		.always(function() {
+    			console.log("complete");
+    		});
+    		
+    	}
+    })(jQuery)
     </script>
 </body>
 
