@@ -51,7 +51,7 @@
                 <div class="row text-white">
                     <!--Header-Text-Slider-->
                     <div class="col-xs-12 col-sm-6 col-md-5">
-                        <h1 class="headline two-h-s text-uppercase" data-animation="animated fadeInRight">WELCOME TO <br>Intent Software Solutions</h1>
+                        <h1 class="headline two-h-s text-uppercase" data-animation="animated fadeInRight">WELCOME TO <br>turnkeez</h1>
                         <div class="four-h-s" data-animation="animated fadeInRight">
                             <p>Intent Software Solutions is a Data Analytics &amp; Data Science company.
                                 <br>splashing down data.</p>
@@ -71,80 +71,80 @@
         </div>
     </header>
     <!--Header-area/-->
-    <section class="do-sevice-section" id="do-sevice-section">
-        <div class="container container-95">
-            <div class="row">
-                <!-- DESIGN -->
-                <div class="do-service-container">
-                    <div class="do-service-container-inner">
-                        <div class="do-front-part">
-                            <div class="do-front-content">
-                                <i class="fa fa-flag "></i>
-                                <h3>Data Science</h3>
-                            </div>
+    <!--     <section class="do-sevice-section" id="do-sevice-section">
+    <div class="container container-95">
+        <div class="row">
+            DESIGN
+            <div class="do-service-container">
+                <div class="do-service-container-inner">
+                    <div class="do-front-part">
+                        <div class="do-front-content">
+                            <i class="fa fa-flag "></i>
+                            <h3>Data Science</h3>
                         </div>
-                        <div class="do-back-part">
-                            <div class="do-back-content">
-                                <h3><i class="fa fa-flag "></i> Data Science</h3>
-                                <p>BIG data or small data we use it to solve important problems</p>
-                            </div>
+                    </div>
+                    <div class="do-back-part">
+                        <div class="do-back-content">
+                            <h3><i class="fa fa-flag "></i> Data Science</h3>
+                            <p>BIG data or small data we use it to solve important problems</p>
                         </div>
                     </div>
                 </div>
-                <!-- PRODUCTS -->
-                <div class="do-service-container">
-                    <div class="do-service-container-inner">
-                        <div class="do-front-part">
-                            <div class="do-front-content">
-                                <i class="fa fa-linux"></i>
-                                <h3>Data Center</h3>
-                            </div>
+            </div>
+            PRODUCTS
+            <div class="do-service-container">
+                <div class="do-service-container-inner">
+                    <div class="do-front-part">
+                        <div class="do-front-content">
+                            <i class="fa fa-linux"></i>
+                            <h3>Data Center</h3>
                         </div>
-                        <div class="do-back-part">
-                            <div class="do-back-content">
-                                <h3><i class="fa fa-linux"></i> Data Center</h3>
-                                <p> we provide data center services for enterprise needs.</p>
-                            </div>
+                    </div>
+                    <div class="do-back-part">
+                        <div class="do-back-content">
+                            <h3><i class="fa fa-linux"></i> Data Center</h3>
+                            <p> we provide data center services for enterprise needs.</p>
                         </div>
                     </div>
                 </div>
-                <!-- AWARDS -->
-                <div class="do-service-container">
-                    <div class="do-service-container-inner">
-                        <div class="do-front-part">
-                            <div class="do-front-content">
-                                <i class="fa fa-fire"></i>
-                                <h3>Staffing</h3>
-                            </div>
+            </div>
+            AWARDS
+            <div class="do-service-container">
+                <div class="do-service-container-inner">
+                    <div class="do-front-part">
+                        <div class="do-front-content">
+                            <i class="fa fa-fire"></i>
+                            <h3>Staffing</h3>
                         </div>
-                        <div class="do-back-part">
-                            <div class="do-back-content">
-                                <h3><i class="fa fa-fire"></i> Staffing</h3>
-                                <p> Our biggest differentiator is our People, we hire the best!.</p>
-                            </div>
+                    </div>
+                    <div class="do-back-part">
+                        <div class="do-back-content">
+                            <h3><i class="fa fa-fire"></i> Staffing</h3>
+                            <p> Our biggest differentiator is our People, we hire the best!.</p>
                         </div>
                     </div>
                 </div>
-                <!-- PARTNERS -->
-                <div class="do-service-container">
-                    <div class="do-service-container-inner">
-                        <div class="do-front-part">
-                            <div class="do-front-content">
-                                <i class="fa fa-clock-o "></i>
-                                <h3>Development</h3>
-                            </div>
+            </div>
+            PARTNERS
+            <div class="do-service-container">
+                <div class="do-service-container-inner">
+                    <div class="do-front-part">
+                        <div class="do-front-content">
+                            <i class="fa fa-clock-o "></i>
+                            <h3>Development</h3>
                         </div>
-                        <div class="do-back-part">
-                            <div class="do-back-content">
-                                <h3><i class="fa fa-clock-o "></i> Development</h3>
-                                <p> Intent Software Solutions offer large scale applications, for your enterprise needs.</p>
-                            </div>
+                    </div>
+                    <div class="do-back-part">
+                        <div class="do-back-content">
+                            <h3><i class="fa fa-clock-o "></i> Development</h3>
+                            <p> Intent Software Solutions offer large scale applications, for your enterprise needs.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section> -->
     <!--About-area-->
     <section class="gray-bg relative" id="about">
         <div class="space-80"></div>
@@ -156,15 +156,14 @@
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <div class="about_content about_content_left">
-                        <!-- <div class="page-count-num">01</div> -->
-                        <div class="space-30"></div>
+                       <!--  <div class="page-count-num">01</div>
+                       <div class="space-30"></div> -->
                         <h2>Who We <span class="text-red">Are</span></h2>
                         <div class="space-40"></div>
                         <p>
                             We like solving problems—taking things apart, seeing how they work and putting them back together, better. We lead the way in combining science and hands-on experience to solve the toughest sales and marketing challenges. For more than 10 years, we’ve learned from each success and apply our passion to help customers win and grow. When the forces of sales and marketing combine, the impact can be incredible. Together, they have the power to boost market share, increase revenue, lower costs and improve overall business performance. That’s impact where it matters. And, in collaboration with our clients, that’s exactly the kind of impact Intent Software Solutions delivers.
                         </p>
-                        <div class="space-60"></div>
-                        <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
+                        
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6">
@@ -175,118 +174,25 @@
                         <p>
                             Intent Software Solutions information systems is rooted in an academic partnership that began in the early 2000’s. In 2003, Intent Software Solutions introduced a new sales force effectiveness and productivity framework. This framework – and future versions – has since been leveraged extensively by the firm to help clients determine their key issues and improve their business performance. The company also began to develop data warehouses for clients, as well as a range of analytical services. These projects were the genesis for Intent Software Solutions’s services in client capability building and outsourcing.
                         </p>
-                        <div class="space-40"></div>
-                        <!-- <a href="" class="bttn round-bttn red-bttn">Read More</a> -->
+                        
                     </div>
                 </div>
             </div>
         </div>
         <div class="space-60"></div>
     </section>
-    <section class="relative" id="datascience">
-        <div class="space-80"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                    <h1 class="text-uppercase">Data <span class="text-red">Science</span></h1>
-                    <hr class="red_hr">
-                    <div class="space-10"></div>
-                    <p class="text-uppercase text-muted"><b><i>Using Data Science to Score Marketing Content</i></b></p>
-                    <div class="space-10"></div>
-                    <p>Intent Software Solutions’s approach to data science challenges is highly pragmatic and interdisciplinary. Our relationship with a customer usually starts with our analyzing a data science opportunity, working with customer executives to develop a quantitative business case for pursuing it, and presenting the business case to executive decision makers. We then combine cutting edge methods from statistics, operations research, machine learning, decision science, cognitive science, software engineering, business intelligence, human factors, and organizational behavior to produce a state-of-the-art scientific model. When we translate the model into a production decision-support or decision-automation system, we adhere methodically to agile/lean design and development life cycles that include robust testing at every level, to ensure the most reliable and scalable solution possible. We’re equally systematic about involving customer executives and staff in each stage of a project, to ensure enthusiastic executive sponsorship, appropriate organizational support, and graceful technology and business-process transitions.</p>
-                    <div class="space-20"></div>
-                    <div class="space-80"></div>
-                </div>
-                <div class="col-xs-12 col-sm-5">
-                    <img src="images/data-analysis.jpg" alt="" class="img-responsive" width="100%">
-                </div>
-            </div>
-        </div>
-        <div class="space-60"></div>
-    </section>
-    <section class="gray-bg relative">
-        <div class="space-80"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                    <img src="images/type2.jpg" alt="" class="img-responsive" width="100%">
-                </div>
-                <div class="col-xs-12 col-sm-5">
-                    <h1 class="text-uppercase">Company <span class="text-red">Analysis</span></h1>
-                    <hr class="red_hr">
-                    <div class="space-10"></div>
-                    <ul>
-                        <li>Corporate Data Science</li>
-                        <li>Exploratory Data Science</li>
-                        <li>Automated Reporting</li>
-                        <li>Data Mining</li>
-                        <li>Connected Devices Data</li>
-                        <li>Data Science Education</li>
-                    </ul>
-                    <div class="space-20"></div>
-                    <div class="space-80"></div>
-                </div>
-                <div class="space-80"></div>
-            </div>
-        </div>
-        <div class="space-60"></div>
-    </section>
-    <section class="relative hidden-xs hidden-sm">
-        <div class="space-80"></div>
-        <div class="container">
-            <div class="row">
-                <div class="content service_content">
-                    <div class="service_left">
-                        <div class="apartment">
-                            <a href="apartment_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInLeft animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name:fadeInLeft;">Migrate from Legacy BI</h5>
-                            </a>
-                        </div>
-                        <div class="office">
-                            <a href="office_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInLeft animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInLeft;">Incorporate Hadoop <br>into every day analytics</h5>
-                            </a>
-                        </div>
-                        <div class="move_in_out">
-                            <a href="move_in_out_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInLeft animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInLeft;">Manage centralized <br>BI in the cloud</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="service_middle round">
-                        <img class="round" src="images/service.png" alt="">
-                    </div>
-                    <div class="service_right">
-                        <div class="car_washing">
-                            <a href="car_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInRight animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInRight;">Leverage the value of <br>data for your clients</h5></a>
-                        </div>
-                        <div class="renovation">
-                            <a href="renovation_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInRight animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInRight;">Setup your Sales, <br>Marketing &amp; Financial Analytics</h5></a>
-                        </div>
-                        <div class="green_cleaning">
-                            <a href="green_service.html">
-                                <div class="service_icon round"></div>
-                                <h5 class="wow fadeInRight animated" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInRight;">Analyze Complex processes <br>or Business models</h5></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="space-60"></div>
-    </section>
+    
     <section class="gray-bg relative">
         <div class="container">
             <div class="space-100"></div>
             <div class="alert alert-success hide contact_success"></div>
             <form action="process.php" id="contact-form" method="post" novalidate>
                 <div class="row">
+                                <div class="col-xs-12">
+                    <h1 class="text-center text-uppercase">Contact <span class="text-red">Us</span></h1>
+                    <hr class="red_hr margin_auto">
+                        <div class="space-30"></div>
+                </div>
                     <div class="col-xs-12 col-sm-4">
                         <input type="text" class="required form-control" id="form-name" name="form-name" placeholder="Your Name" required>
                         <p class="text-danger error hide">Please enter name</p>
@@ -329,73 +235,73 @@
     <script src="js/main.js"></script>
     <script>
     w3.includeHTML();
-    (function($){
-    	/*$("body").on("click", ".form_contact_submit", function(e) {
-    		e.stopPropogation();
-    		e.preventDefault();
+    (function($) {
+        /*$("body").on("click", ".form_contact_submit", function(e) {
+            e.stopPropogation();
+            e.preventDefault();
 
-    	});*/
+        });*/
 
-    	var $contactForm = $("#contact-form");
-    	var $requiredFlieds = $contactForm.find(".required");
-    	var $submitBtn = $contactForm.find(".form_contact_submit");
+        var $contactForm = $("#contact-form");
+        var $requiredFlieds = $contactForm.find(".required");
+        var $submitBtn = $contactForm.find(".form_contact_submit");
 
-    	$requiredFlieds.on("blur change", function(e) {
-    		var value = $.trim($(this).val());
-    		var $error = $(this).siblings('.error');
-    		$error.addClass('hide');
-    		if(!value || value == undefined) {
-    			$error.removeClass('hide');
-    			return false;
-    		}
-    	});
+        $requiredFlieds.on("blur change", function(e) {
+            var value = $.trim($(this).val());
+            var $error = $(this).siblings('.error');
+            $error.addClass('hide');
+            if (!value || value == undefined) {
+                $error.removeClass('hide');
+                return false;
+            }
+        });
 
-    	$submitBtn.on("click", function(e) {
-    		e.stopPropagation();
-    		e.preventDefault();
-    		var isValid = true;
-    		$requiredFlieds.each(function(e) {
-    			var value = $.trim($(this).val());
-    			var $error = $(this).siblings('.error');
-	    		$error.addClass('hide');
-	    		if(!value || value == undefined) {
-	    			$error.removeClass('hide');
-	    			isValid = false;
-	    		}
-    		});
+        $submitBtn.on("click", function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            var isValid = true;
+            $requiredFlieds.each(function(e) {
+                var value = $.trim($(this).val());
+                var $error = $(this).siblings('.error');
+                $error.addClass('hide');
+                if (!value || value == undefined) {
+                    $error.removeClass('hide');
+                    isValid = false;
+                }
+            });
 
-    		if(isValid) {
-    			submitForm($contactForm)
-    		}
-    	});
+            if (isValid) {
+                submitForm($contactForm)
+            }
+        });
 
-    	function submitForm($form) {
-    		var params = $form.serialize();
-    		console.log("params", params);
-    		$.ajax({
-    			url: '/mail.php',
-    			type: 'POST',
-    			data: params,
-    		})
-    		.done(function(response) {
-    			$(".contact_success").text(response).removeClass('hide');
-    			setTimeout(function() {
-    				$requiredFlieds.each(function() {
-    					$(this).val("");
-    					$(this).siblings(".error").addClass('hide');
-    					$(".contact_success").text("").addClass('hide');
-    				})
-    			}, 3000)
-    			console.log("success");
-    		})
-    		.fail(function() {
-    			console.log("error");
-    		})
-    		.always(function() {
-    			console.log("complete");
-    		});
-    		
-    	}
+        function submitForm($form) {
+            var params = $form.serialize();
+            console.log("params", params);
+            $.ajax({
+                    url: '/mail.php',
+                    type: 'POST',
+                    data: params,
+                })
+                .done(function(response) {
+                    $(".contact_success").text(response).removeClass('hide');
+                    setTimeout(function() {
+                        $requiredFlieds.each(function() {
+                            $(this).val("");
+                            $(this).siblings(".error").addClass('hide');
+                            $(".contact_success").text("").addClass('hide');
+                        })
+                    }, 3000)
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+
+        }
     })(jQuery)
     </script>
 </body>

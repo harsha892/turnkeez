@@ -19,10 +19,6 @@ img {
     height: auto;
 }
 
-.navbar-brand img {
-    width: 100px;
-}
-
 .footer_logo {
     width: 100px;
     background: #fff;
@@ -91,7 +87,7 @@ input:-webkit-autofill:focus {
 }
 
 .bttn.icon-bttn:hover {
-    color: #ec082b;
+    color: #1b606f;
 }
 
 .bttn.icon-bttn:before {
@@ -125,7 +121,7 @@ input:-webkit-autofill:focus {
 }
 
 .bttn.icon-bttn span {
-    color: #ec082b;
+    color: #1b606f;
     height: 100%;
     line-height: 3.4;
     position: absolute;
@@ -136,22 +132,22 @@ input:-webkit-autofill:focus {
 }
 
 .bttn.red-bttn {
-    background-color: #ec082b;
+    background-color: #1b606f;
     color: #ffffff;
 }
 
 .bttn.red-bttn:hover {
-    background-color: #d50d2c;
+    background-color: #00b2ae;
 }
 
 .bttn.border-bttn {
     border: 1px solid;
-    color: #ec082b;
-    border-color: #ec082b;
+    color: #1b606f;
+    border-color: #1b606f;
 }
 
 .bttn.border-bttn:hover {
-    background-color: #ec082b;
+    background-color: #1b606f;
     color: #ffffff;
 }
 
@@ -181,7 +177,7 @@ input:-webkit-autofill:focus {
 
 .form-control:focus {
     box-shadow: 0 0 0 0 rgba(230, 40, 88, 0.4);
-    border-color: #ec082b;
+    border-color: #1b606f;
 }
 
 .form-control::-moz-placeholder {
@@ -251,7 +247,7 @@ input:-webkit-autofill:focus {
 }
 
 .red-bg {
-    background-color: #ec082b;
+    background-color: #1b606f;
     color: #ffffff;
 }
 
@@ -309,7 +305,7 @@ input:-webkit-autofill:focus {
 }
 
 .header-overlay {
-    background-color: #ec082b;
+    background-color: #1b606f;
     content: "";
     height: 100%;
     left: 0;
@@ -345,14 +341,14 @@ input:-webkit-autofill:focus {
     width: 100%;
     height: 100%;
     opacity: 0.9;
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left top, #ec082b 50%, transparent 50%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left top, #1b606f 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #1b606f 50%, transparent 50%) repeat scroll 0 0;
 }
 
 .header-small-angle-bg {
     /*  height: 150px; */
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, #ec082b 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left bottom, #1b606f 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, #1b606f 50%, transparent 50%) repeat scroll 0 0;
 }
 
 .headline {
@@ -361,7 +357,7 @@ input:-webkit-autofill:focus {
 }
 
 .header-scroll-btton a {
-    background-color: #ec082b;
+    background-color: #1b606f;
     border-radius: 50%;
     bottom: 30px;
     box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.6);
@@ -391,21 +387,22 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #ec082b;
+    background-color: #1b606f;
     padding-top: 0;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     padding: 6px;
-}
+} */
 
 .navbar-inverse .navbar-brand {
-    color: #fff;
+    color: #1b606f;
     background: #fff;
+    font-weight: 600;
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color: #fff;
+    color: #1b606f;
     background-color: #fff;
 }
 
@@ -494,7 +491,7 @@ input:-webkit-autofill:focus {
 }
 
 .team-sical li a:hover {
-    color: #ec082b;
+    color: #1b606f;
 }
 
 .team-image:hover .team-sical li a {
@@ -632,16 +629,16 @@ input:-webkit-autofill:focus {
 }
 
 .price-rate {
-    color: #ec082b;
+    color: #1b606f;
     font-size: 60px;
     font-weight: 600;
 }
 
 #scrollUp {
-    border: 1px solid #ec082b;
+    border: 1px solid #1b606f;
     border-radius: 2px;
     bottom: 30px;
-    color: #ec082b;
+    color: #1b606f;
     height: 40px;
     line-height: 3;
     right: 30px;
@@ -652,7 +649,7 @@ input:-webkit-autofill:focus {
 }
 
 #scrollUp:hover {
-    background-color: #ec082b;
+    background-color: #1b606f;
     color: #ffffff;
 }
 
@@ -668,7 +665,7 @@ input:-webkit-autofill:focus {
 .preloader-spinner {
     -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
     animation: 1s ease-out 0s normal none infinite running pulsate;
-    border: 5px solid #ec082b;
+    border: 5px solid #1b606f;
     border-radius: 40px;
     display: block;
     height: 40px;
@@ -762,7 +759,7 @@ input:-webkit-autofill:focus {
 
 .do-sevice-section {
     width: 100%;
-    border-top: 5px solid #ec082b;
+    border-top: 5px solid #1b606f;
 }
 
 .do-sevice-section .do-service-container {
@@ -802,7 +799,7 @@ input:-webkit-autofill:focus {
 }
 
 .do-sevice-section .do-service-container:nth-child(1) .do-front-part {
-    background-color: #ec082b;
+    background-color: #1b606f;
 }
 
 .do-sevice-section .do-service-container:nth-child(2) .do-front-part {
@@ -810,7 +807,7 @@ input:-webkit-autofill:focus {
 }
 
 .do-sevice-section .do-service-container:nth-child(3) .do-front-part {
-    background-color: #ec082b;
+    background-color: #1b606f;
 }
 
 .do-sevice-section .do-service-container:nth-child(4) .do-front-part {
@@ -818,7 +815,7 @@ input:-webkit-autofill:focus {
 }
 
 .do-sevice-section .do-service-container:nth-child(5) .do-front-part {
-    background-color: #ec082b;
+    background-color: #1b606f;
 }
 
 .do-sevice-section .do-service-container:nth-child(6) .do-front-part {
@@ -874,7 +871,7 @@ input:-webkit-autofill:focus {
 }
 
 .do-sevice-section .do-service-container .do-back-part {
-    background-color: #ec082b;
+    background-color: #1b606f;
     z-index: 1;
     opacity: 0;
     -webkit-transform: translateY(110px) rotateX(-90deg);
@@ -958,7 +955,7 @@ input:-webkit-autofill:focus {
 .about_content_left:after {
     content: "";
     position: absolute;
-    border-right: 5px solid #ec082b;
+    border-right: 5px solid #1b606f;
     height: 100%;
     right: 0;
     top: 0;
@@ -967,7 +964,7 @@ input:-webkit-autofill:focus {
 .red_hr {
     width: 30px;
     height: 3px;
-    background: #ec082b;
+    background: #1b606f;
     margin: 0;
     margin-bottom: 10px!important;
 }
@@ -977,7 +974,7 @@ input:-webkit-autofill:focus {
 }
 
 .text-red {
-    color: #ec082b
+    color: #1b606f
 }
 
 #our_srvice {
@@ -1138,7 +1135,7 @@ input:-webkit-autofill:focus {
 }
 
 .office:hover .service_icon {
-    background: #ec082b url("../images/icon/office.png") no-repeat center / 30% 30%;
+    background: #1b606f url("../images/icon/office.png") no-repeat center / 30% 30%;
 }
 
 .move_in_out .service_icon {
@@ -1146,11 +1143,11 @@ input:-webkit-autofill:focus {
 }
 
 .move_in_out:hover .service_icon {
-    background: #ec082b url("../images/icon/express.png") no-repeat center / 40% 40%;
+    background: #1b606f url("../images/icon/express.png") no-repeat center / 40% 40%;
 }
 
 .apartment:hover .service_icon {
-    background: #ec082b url("../images/icon/home.png") no-repeat center / 30% 30%;
+    background: #1b606f url("../images/icon/home.png") no-repeat center / 30% 30%;
 }
 
 .car_washing .service_icon {
@@ -1162,11 +1159,11 @@ input:-webkit-autofill:focus {
 }
 
 .renovation:hover .service_icon {
-    background: #ec082b url("../images/icon/white_paintbrush.png") no-repeat center / 30% 30%;
+    background: #1b606f url("../images/icon/white_paintbrush.png") no-repeat center / 30% 30%;
 }
 
 .car_washing:hover .service_icon {
-    background: #ec082b url("../images/icon/white_car.png") no-repeat center / 30% 30%;
+    background: #1b606f url("../images/icon/white_car.png") no-repeat center / 30% 30%;
 }
 
 .green_cleaning .service_icon {
@@ -1174,7 +1171,7 @@ input:-webkit-autofill:focus {
 }
 
 .green_cleaning:hover .service_icon {
-    background: #ec082b url("../images/icon/white_leaf.png") no-repeat center / 40% 40%;
+    background: #1b606f url("../images/icon/white_leaf.png") no-repeat center / 40% 40%;
 }
 
 .service_left .service_icon,
